@@ -1,22 +1,27 @@
 .NavBar {
   display: flex;
   background-color: aliceblue;
-  border-bottom: 2px solid rgb(113, 113, 113);
+  border-bottom: 4px solid rgb(113, 113, 113);
+}
+
+.NavBar h2 {
+  font-size: 40px;
 }
 .logo {
   display: flex;
-  flex-wrap: wrap;
-  width: 100px;
+  width: 200px;
   height: 50px;
 }
 
-.nav-title {
-    
+.navbar-links-item ul {
 }
-.navbar-links-item {
+
+.navbar-links-item li {
   text-decoration: none;
-  margin: 10px;
+  font-size: 17px;
+  font-weight: 300;
+  margin: 0px;
   padding: 10px;
   display: inline-block;
-  justify-content: end; /* way to the right */
+  float: right;
 }
